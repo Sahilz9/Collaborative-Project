@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=M+PLUS+Rounded+1c&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Cards */
+
+.main-card-container {
+  display: flex;
+  margin: 0 0 0 8em;
+}
+
+.card-container {
+  height: auto;
+  width: 390px;
+  /* border: 1px solid black; */
+  margin: 5em 0 0 1em;
+}
+
+.card-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-tag {
+  background-image: linear-gradient(
+    285deg,
+    rgb(46, 164, 224),
+    rgb(49, 198, 132)
+  );
+  color: rgb(255, 255, 255);
+  height: 25px;
+  width: 120px;
+  margin: 10px 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+  height: 500px;
+  width: 390px;
+  background-image: url(https://imagescdn.reebok.in/img/app/product/3/39630561-13059531.jpg?q=75&auto=format&w=387);
+}
+
+.card-img1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+  height: 500px;
+  width: 390px;
+  background-image: url(https://imagescdn.reebok.in/img/app/product/3/39627622-12952976.jpg?q=75&auto=format&w=387);
+}
+
+.card-img2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+  height: 500px;
+  width: 390px;
+  background-image: url(https://imagescdn.reebok.in/img/app/product/3/39634580-13181532.jpg?q=75&auto=format&w=387);
+}
+
+.card-img3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+  height: 500px;
+  width: 390px;
+  background-image: url(https://imagescdn.reebok.in/img/app/product/3/39628113-12976328.jpg?q=75&auto=format&w=387);
+}
+
+.heart-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.product-name {
+  padding: 8px 0 0 0;
+}
+
+.card-price {
+  font-weight: bold;
+}
