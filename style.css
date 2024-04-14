@@ -75,6 +75,84 @@
   margin-right: 10px;
 }
 
+/* different Section New Men Women */
+
+.reebok-section {
+  /* border: 1px solid black; */
+  margin: 2em 0 0 11em;
+}
+
+.reebok-lists > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+  font-weight: 500;
+}
+
+.reebok-lists > ul > li {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.reebok-logo {
+  height: auto;
+  width: 10em;
+  margin: 0 5em 0 0;
+}
+
+.sale {
+  color: #cd1423;
+}
+
+/* Search container */
+
+.search-icon {
+  font-size: 20px;
+  margin: 1em 1em 0 0;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin: 0 0 0 14em;
+}
+
+.search-input {
+  border-top: #252525;
+  border-right: #252525;
+  border-left: #252525;
+}
+
+.delivery-logo {
+  font-size: 16px;
+  margin: 15px 10px 0 0;
+}
+
+.delivery {
+  display: flex;
+  height: 50px;
+  width: 250px;
+  background-color: #c40c2f;
+  color: white;
+  border-radius: 40px;
+  text-align: start;
+  padding: 0 0 0 15px;
+  cursor: pointer;
+}
+
+.content-text {
+  margin: 5px 0 0 0;
+}
+
+.button-head {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button-content {
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0 0 0 0;
+}
 
 /* Cards */
 
